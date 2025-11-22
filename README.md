@@ -1,23 +1,38 @@
+# College FAQ Chatbot – Sri Vasavi Engineering College
 
-# Simple FAQ Chatbot
+A simple rule-based FAQ chatbot built using **Python** and **JSON**.  
+The bot answers frequently asked questions related to **Sri Vasavi Engineering College, Tadepalligudem**.
 
-A basic Python chatbot that answers predefined college-related FAQs using simple AI logic.
+---
 
 ## Features
-- Keyword-based question matching
-- Predefined responses for common college queries
-- Easy to extend with more FAQs
-- CLI interface
 
-## How to Run
-```bash
-python chatbot.py
-```
+- Answers questions about:
+  - College name and location  
+  - Establishment year and affiliation  
+  - Accreditation details  
+  - Undergraduate & postgraduate courses  
+  - Admission process  
+  - Campus facilities  
+  - Placement highlights  
+  - Contact details & official website  
+- Text-based terminal chatbot  
+- Lightweight, beginner-friendly implementation  
 
-Type 'exit' to quit the chatbot.
+---
 
-## Example Questions
-- What are the college timings?
-- How long is the course duration?
-- When is the library open?
-- What is the exam schedule?
+## Tech Stack
+
+- Python 3
+- JSON (for data storage)
+
+---
+
+## Project Structure
+
+```text
+ChatBot/
+├── chatbot.py       # Main Python script (chat logic)
+├── faq_data.json    # FAQ data (question-key → answer)
+├── requirements.txt # Dependencies (if any external libs are added)
+└── README.md        # Project documentation
